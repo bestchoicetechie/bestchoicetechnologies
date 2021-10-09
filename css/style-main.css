@@ -1075,9 +1075,19 @@ section > .container-fluid {
     display: block;
     text-align: center;
   }
+  .menuzord-brand img {
+    max-height: 10px;
+  }
 }
 .menuzord-brand img {
   max-height: 58px;
+}
+
+@media screen and (max-width: 700px) {
+  .menuzord .menuzord-brand img{
+    width: 150px;
+    
+  }
 }
 /* -------- Custom theme style ---------- */
 .header-nav .header-nav-wrapper .menuzord {
